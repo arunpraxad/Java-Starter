@@ -1,0 +1,5 @@
+spring:
+  name: frontend-app
+
+server:
+  port: 5000
