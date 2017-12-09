@@ -2,4 +2,4 @@ spring:
   name: frontend-app
 
 server:
-  port: 5000
+  port: 4500
