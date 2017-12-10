@@ -1,0 +1,18 @@
+spring:
+  name: rest-app
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/apptry
+    username: postgres
+    password: password
+    driverClassName: org.postgresql.Driver
+
+  jpa:
+    generate-ddl: true
+    show_sql: true
+    hibernate:
+      dialect: org.hibernate.dialect.PostgrsSQLDialect
+      ddl-auto: update
+
+server:
+  port: 5000
